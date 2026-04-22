@@ -1,0 +1,34 @@
+# 编译产物文件夹
+x64/
+Debug/
+Release/
+bin/
+obj/
+
+# VS 本地配置与缓存
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sdf
+*.opensdf
+*.VC.db
+*.VC.opendb
+
+# 编译生成的文件
+*.exe
+*.dll
+*.obj
+*.pdb
+*.ilk
+*.log
+*.tlog
+*.lastbuildstate
+*.idb
+*.ipch
+
+# 其他临时文件
+*.bak
+*.tmp
+*.swp
+

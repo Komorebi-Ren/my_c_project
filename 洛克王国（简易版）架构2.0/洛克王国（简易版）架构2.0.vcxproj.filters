@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="世界探索模块">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="NPC与交互模块">
+      <UniqueIdentifier>{f6714373-e94a-4662-9716-a4ff200bfb84}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="精灵养成系统">
+      <UniqueIdentifier>{9668441f-de9d-4dbd-8498-c85325d7e717}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="任务系统模块">
+      <UniqueIdentifier>{11f7c83a-abbc-4365-9c9e-3a135cd4995d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="战斗模块系统">
+      <UniqueIdentifier>{d17634e9-0078-4806-a7d3-19ce2012c52e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="App模块">
+      <UniqueIdentifier>{d37c188b-bdb0-4f38-af60-8d5953cd6ad7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="音乐、图片">
+      <UniqueIdentifier>{c323b27a-0a9e-4f4b-a84f-e61891c09aad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="系统入口">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="主菜单与账号模块">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="GameStart.cpp">
+      <Filter>主菜单与账号模块</Filter>
+    </ClCompile>
+    <ClCompile Include="MainMenu.cpp">
+      <Filter>系统入口</Filter>
+    </ClCompile>
+    <ClCompile Include="WorldExplore.cpp">
+      <Filter>世界探索模块</Filter>
+    </ClCompile>
+    <ClCompile Include="NPCSystem.cpp">
+      <Filter>NPC与交互模块</Filter>
+    </ClCompile>
+    <ClCompile Include="ElfSystem.cpp">
+      <Filter>精灵养成系统</Filter>
+    </ClCompile>
+    <ClCompile Include="QuestSystem.cpp">
+      <Filter>任务系统模块</Filter>
+    </ClCompile>
+    <ClCompile Include="BattleSystem.cpp">
+      <Filter>战斗模块系统</Filter>
+    </ClCompile>
+    <ClCompile Include="App.cpp">
+      <Filter>App模块</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="GameStart.h">
+      <Filter>主菜单与账号模块</Filter>
+    </ClInclude>
+    <ClInclude Include="MainMenu.h">
+      <Filter>系统入口</Filter>
+    </ClInclude>
+    <ClInclude Include="WorldExplore.h">
+      <Filter>世界探索模块</Filter>
+    </ClInclude>
+    <ClInclude Include="NPCSystem.h">
+      <Filter>NPC与交互模块</Filter>
+    </ClInclude>
+    <ClInclude Include="ElfSystem.h">
+      <Filter>精灵养成系统</Filter>
+    </ClInclude>
+    <ClInclude Include="QuestSystem.h">
+      <Filter>任务系统模块</Filter>
+    </ClInclude>
+    <ClInclude Include="BattleSystem.h">
+      <Filter>战斗模块系统</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
